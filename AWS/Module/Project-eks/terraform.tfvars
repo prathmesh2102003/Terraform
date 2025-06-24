@@ -1,0 +1,12 @@
+aws_region                               = "us-east-1"
+cluster_name                             = "my-cluster"
+cluster_version                          = 1.31
+subnet_ids                               = ["subnet-090a03e0ebd6d9c46", "subnet-0b15167f9027b2381", "subnet-0c05728019bdb7aba"]
+vpc_id                                   = "vpc-01522f292357fd8a0"
+enable_irsa                              = true
+cluster_endpoint_public_access           = true
+enable_cluster_creator_admin_permissions = true
+desired_size                             = 2
+min_size                                 = 1
+max_size                                 = 3
+instance_types                           = ["t3.medium"]
